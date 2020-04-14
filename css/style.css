@@ -311,6 +311,7 @@ body {
   }
 
   .header-active {
+    z-index: 5;
     opacity: 1;
     visibility:visible;
   }
@@ -354,6 +355,7 @@ body {
   }
 
   .menu-button::before {
+    z-index: 10;
     display: block;
     content: '';
     position: absolute;
@@ -367,6 +369,7 @@ body {
   }
 
   .menu-button::after {
+    z-index: 10;
     display: block;
     content: '';
     position: absolute;
